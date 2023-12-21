@@ -1,0 +1,12 @@
+{
+  license: "MIT",
+  author: "southorange0929",
+  name: "@ohos-rs/crc32",
+  description: "Fastest `crc32` implement for HarmonyOS,powered by ohos-rs.",
+  main: "Index.ets",
+  version: "0.0.1",
+  repository: "https://github.com/ohos-rs/crc32-ohos.git",
+  dependencies: {
+    "libohos_rs_jieba.so": "file:./src/main/cpp/types/libjieba",
+  },
+}
