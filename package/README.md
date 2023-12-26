@@ -12,7 +12,7 @@ Fastest `crc32` implement in `HarmonyOS`
 use`ohpm` to install package.
 
 ```shell
-ohpm install @ohrs-rs/crc32
+ohpm install @ohos-rs/crc32
 ```
 
 ## API
@@ -20,8 +20,8 @@ ohpm install @ohrs-rs/crc32
 > The type of **input initial crc** and **output crc number** is `u32`
 
 ```ts
-export function crc32(input: Buffer, crc?: number): number
-export function crc32c(input: Buffer, crc?: number): number
+export function crc32(input: string | buffer.Buffer, crc?: number): number
+export function crc32c(input: string | buffer.Buffer, crc?: number): number
 ```
 
 ## Usage
