@@ -1,3 +1,5 @@
+# This repository has been archived, please use [packages](https://github.com/ohos-rs/packages)
+
 # `@ohos-rs/crc32`
 
 Fastest `crc32` implement in `OpenHarmony`
